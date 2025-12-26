@@ -1,0 +1,23 @@
+[
+  {
+    "id": "street_urchin",
+    "name": "Street Urchin",
+    "description": "You grew up in the alleys and shadows of a crumbling city. You learned to survive by your wits, steal what you needed, and trust no one. The streets taught you to be quick, resourceful, and always watching your back.",
+    "starting_perk": "Shadow Born: +2 to Sneak skill. You can move silently through urban environments and blend into crowds.",
+    "narrative_hook": "You've heard rumors of a way out of the slums—a forgotten treasure, a powerful patron, or a chance to prove yourself. But first, you must survive one more night."
+  },
+  {
+    "id": "veteran",
+    "name": "Veteran",
+    "description": "You served in the wars that tore the kingdom apart. You've seen friends die, villages burn, and leaders betray their oaths. Now discharged, you carry your scars and your skills into an uncertain world.",
+    "starting_perk": "Battle Hardened: +1 to Might and +1 to Blade skill. You've survived worse than this.",
+    "narrative_hook": "The war may be over, but you can't shake the feeling that something darker is stirring. Old enemies, unpaid debts, or a promise you made in the heat of battle—it's time to settle accounts."
+  },
+  {
+    "id": "acolyte",
+    "name": "Acolyte",
+    "description": "You were raised in a temple, monastery, or sacred grove. You learned the old rites, the forgotten prayers, and the ways of the spirit world. But when your order fell to corruption or disaster, you were cast out—or chose to leave.",
+    "starting_perk": "Sacred Knowledge: +2 to Lore skill. You can read ancient texts and recognize divine or arcane symbols.",
+    "narrative_hook": "A vision, a prophecy, or a dying mentor's final words set you on this path. The gods may be silent, but their will remains—and you're determined to uncover it."
+  }
+]

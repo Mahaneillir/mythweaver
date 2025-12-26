@@ -1,0 +1,39 @@
+# Mythweaver API - Backend Dependencies
+# Adapted from whisperbound_be for Mythweaver MVP
+
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database and ORM (updated for Python 3.13 compatibility)
+sqlalchemy==2.0.36
+alembic==1.12.1
+psycopg2-binary==2.9.10
+asyncpg==0.30.0
+greenlet==3.1.1
+
+# Redis and caching
+redis==5.0.1
+python-multipart==0.0.6
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# Data validation and serialization
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# AI and LLM Integration
+openai==1.58.1
+httpx==0.28.1
+
+# Utilities
+python-dotenv==1.0.0
+typing-extensions>=4.12.2
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+requests==2.31.0

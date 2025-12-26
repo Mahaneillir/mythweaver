@@ -1,0 +1,102 @@
+[
+  {
+    "id": "riposte",
+    "name": "Riposte",
+    "description": "When an enemy misses you in melee combat, you can spend 2 Focus to immediately counterattack with +2 to hit.",
+    "cost": 2,
+    "requirements": {
+      "path": "blade",
+      "skills": ["Blade"]
+    }
+  },
+  {
+    "id": "shield_ally",
+    "name": "Shield Ally",
+    "description": "You can spend 1 Focus to impose disadvantage on an attack against an ally within reach. You must be aware of the attack.",
+    "cost": 1,
+    "requirements": {
+      "path": "blade",
+      "skills": []
+    }
+  },
+  {
+    "id": "weapon_master",
+    "name": "Weapon Master",
+    "description": "Choose one weapon type (blade, bow, brawl). You gain +1 to all attacks with that weapon type.",
+    "cost": 0,
+    "requirements": {
+      "path": "blade",
+      "skills": []
+    }
+  },
+  {
+    "id": "smoke_step",
+    "name": "Smoke Step",
+    "description": "Spend 3 Focus to disappear from sight and reappear up to 30 feet away in a location you can see. Enemies must make a check to track you.",
+    "cost": 3,
+    "requirements": {
+      "path": "shadow",
+      "skills": ["Sneak"]
+    }
+  },
+  {
+    "id": "backstab",
+    "name": "Backstab",
+    "description": "When attacking an unaware or distracted enemy, spend 2 Focus to deal double damage.",
+    "cost": 2,
+    "requirements": {
+      "path": "shadow",
+      "skills": ["Sneak", "Blade"]
+    }
+  },
+  {
+    "id": "evasion",
+    "name": "Evasion",
+    "description": "When you would take damage from an area effect, spend 1 Focus to take half damage instead (or no damage on a successful save).",
+    "cost": 1,
+    "requirements": {
+      "path": "shadow",
+      "skills": []
+    }
+  },
+  {
+    "id": "quick_ritual",
+    "name": "Quick Ritual",
+    "description": "You can perform simple rituals in 1 minute instead of 10. Spend 2 Focus to cast a minor ward, detect magic, or create light.",
+    "cost": 2,
+    "requirements": {
+      "path": "mystic",
+      "skills": ["Channel"]
+    }
+  },
+  {
+    "id": "ward",
+    "name": "Ward",
+    "description": "Spend 3 Focus to create a protective barrier. You or an ally gains +2 to defense for the rest of the scene.",
+    "cost": 3,
+    "requirements": {
+      "path": "mystic",
+      "skills": ["Channel"]
+    }
+  },
+  {
+    "id": "seers_eye",
+    "name": "Seer's Eye",
+    "description": "Spend 2 Focus to gain a vision of recent events in a location, or ask the Narrator one yes/no question about the scene.",
+    "cost": 2,
+    "requirements": {
+      "path": "mystic",
+      "skills": ["Insight", "Channel"]
+    }
+  },
+  {
+    "id": "iron_will",
+    "name": "Iron Will",
+    "description": "You gain advantage on checks to resist fear, charm, or mental manipulation. Passive talent (no Focus cost).",
+    "cost": 0,
+    "requirements": {
+      "path": null,
+      "skills": []
+    }
+  }
+]

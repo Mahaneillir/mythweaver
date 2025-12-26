@@ -1,0 +1,74 @@
+{
+  "template_id": "broken_kingdom",
+  "name": "The Broken Kingdom",
+  "description": "A once-prosperous kingdom lies in ruins after a devastating war. The old order has collapsed, and now mercenaries, bandits, and desperate survivors fight over the scraps. Ancient powers are stirring, and dark omens haunt the land.",
+  "starting_location": "The Crossroads Inn",
+  "starting_location_description": "A weathered inn at the intersection of the old trade roads. It's one of the few safe havens left in the borderlands, run by a grizzled veteran named Torven who asks no questions.",
+  "opening_scene": {
+    "scene_number": 0,
+    "narration_template": "Rain hammers against the shutters of the Crossroads Inn as you sit nursing a cup of watered wine. The common room is nearly empty—just a few huddled travelers and Torven behind the bar, polishing glasses with practiced indifference.\n\nYou've been on the road for weeks, following rumors and half-truths. {origin_context}\n\nThe door crashes open. A figure stumbles in, cloaked and bleeding. They collapse against a table, gasping: \"Please... they're coming. You have to warn—\" Their eyes widen, fixed on something behind you. You spin around.\n\nThe back door hangs open. Shadows move in the rain beyond.",
+    "origin_context": {
+      "street_urchin": "The streets taught you to survive, but they never taught you what to do when the whole world crumbles. You're looking for a score, a way out, or maybe just a reason to keep moving.",
+      "veteran": "The war took everything—your unit, your home, your certainty. You've been drifting since discharge, unable to shake the feeling that something worse than the war is coming.",
+      "acolyte": "Your temple fell to raiders three months ago. Since then, you've followed visions and omens, seeking answers in the ruins of this broken land. Tonight, those visions led you here."
+    },
+    "suggested_actions": [
+      "Rush to help the wounded stranger",
+      "Draw your weapon and face the shadows",
+      "Demand answers from the stranger before acting",
+      "Look for another exit"
+    ],
+    "initial_threats": [
+      {
+        "name": "Unknown pursuers in the shadows",
+        "danger_level": "moderate"
+      }
+    ]
+  },
+  "setting_details": {
+    "tone": "Gritty fantasy with hints of cosmic horror",
+    "themes": ["Survival", "Trust", "Redemption", "Ancient evils awakening"],
+    "difficulty": "Normal",
+    "world_state": {
+      "kingdom_stability": "collapsed",
+      "magic_level": "returning_slowly",
+      "technology_level": "medieval",
+      "supernatural_threat": "rising"
+    }
+  },
+  "starting_threads": [
+    {
+      "thread_id": "wounded_messenger",
+      "name": "The Wounded Messenger",
+      "description": "A mysterious figure warned of pursuers before collapsing. What were they running from? What message did they carry?",
+      "status": "active",
+      "priority": "urgent"
+    }
+  ],
+  "starting_flags": [
+    {
+      "flag_name": "kingdom_collapsed",
+      "value": true,
+      "description": "The old kingdom has fallen, leaving chaos and opportunity"
+    },
+    {
+      "flag_name": "ancient_powers_stirring",
+      "value": true,
+      "description": "Something ancient and terrible is awakening"
+    },
+    {
+      "flag_name": "crossroads_inn_safe",
+      "value": true,
+      "description": "The Crossroads Inn is currently a safe refuge"
+    }
+  ],
+  "starting_cast": [
+    {
+      "name": "Torven",
+      "role": "Innkeeper",
+      "description": "Grizzled veteran who runs the Crossroads Inn. Seen too much to be surprised by anything.",
+      "disposition": "neutral",
+      "location": "crossroads_inn"
+    }
+  ]
+}

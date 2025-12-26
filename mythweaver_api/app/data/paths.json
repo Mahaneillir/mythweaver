@@ -1,0 +1,38 @@
+[
+  {
+    "id": "blade",
+    "name": "Blade",
+    "description": "You are a warrior, trained in the art of steel and combat. Whether a knight, mercenary, or duelist, you solve problems with your weapon and your courage. You stand between your allies and danger.",
+    "suggested_attributes": {
+      "might": "Primary - for damage and endurance",
+      "agility": "Secondary - for speed and defense"
+    },
+    "starting_skills": ["Blade", "Brawl", "Survival"],
+    "playstyle": "Direct combat, protecting allies, facing threats head-on. You excel in melee combat and can take hits that would down others.",
+    "example_talents": ["Riposte", "Shield Ally", "Weapon Master"]
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow",
+    "description": "You are a rogue, scout, or infiltrator. You rely on stealth, precision, and cunning rather than brute force. You strike from the darkness, exploit weaknesses, and vanish before the enemy knows you were there.",
+    "suggested_attributes": {
+      "agility": "Primary - for stealth and precision",
+      "wits": "Secondary - for planning and perception"
+    },
+    "starting_skills": ["Sneak", "Bow", "Insight"],
+    "playstyle": "Stealth, ambush tactics, scouting. You excel at avoiding direct confrontation and striking when it matters most.",
+    "example_talents": ["Smoke Step", "Backstab", "Evasion"]
+  },
+  {
+    "id": "mystic",
+    "name": "Mystic",
+    "description": "You are a practitioner of the arcane or divine arts. You wield powers beyond mortal understanding—rituals, wards, visions, and the manipulation of unseen forces. Your mind is your weapon.",
+    "suggested_attributes": {
+      "wits": "Primary - for knowledge and power",
+      "presence": "Secondary - for force of will"
+    },
+    "starting_skills": ["Channel", "Lore", "Insight"],
+    "playstyle": "Magic, problem-solving, support. You excel at manipulating the environment, buffing allies, and wielding supernatural power.",
+    "example_talents": ["Quick Ritual", "Ward", "Seer's Eye"]
+  }
+]
